@@ -160,18 +160,56 @@ console.log("Hippopotamus".includes("Hip",1));
 //   console.log("Hello, world!");
 // }
 
-name = prompt ("Favorite Rubio's Menu Item:");
-let side = "";
+// name = prompt ("Favorite Rubio's Menu Item:");
+// let side;
 
-if (name === "fish taco") {
-  side = "pinto beans";
-} else if (name === "steak taco") {
-  side = "salad";
-} else if (name === "lobster taco" || name === "steak burrito" || name === "chicken taco") {
-  side = "black beans";
-} else if (name === "chxn salad" || name === "cali burrito" || name === "fries") {
-  side = "chips";
-} else {
-  side = "quesadilla";
+// if (name === "fish taco") {
+//   side = "pinto beans";
+// } else if (name === "steak taco") {
+//   side = "salad";
+// } else if (name === "lobster taco" || name === "steak burrito" || name === "chicken taco") {
+//   side = "black beans";
+// } else if (name === "chxn salad" || name === "cali burrito" || name === "fries") {
+//   side = "chips";
+// } else {
+//   side = "quesadilla";
+// }
+// console.log(alert("Your favorite side is " + side));
+
+// name = prompt ("Favorite rubios item:");
+// let dessert = "";
+
+// switch (name) {
+//   case "taco":
+//     dessert = "funyons";
+//     break;
+//   case "burrito":
+//     dessert = "brownie";
+//     break;
+//     case "salad":
+//     case "chips":
+//     case "guacamole":
+//       dessert = "none";
+//       break;
+//       default:
+//       dessert = "cake";
+// }
+// console.log("your choice would be " + dessert)
+
+name = prompt ("What language do you speak?") 
+let lan;
+
+switch (name) {
+    case "spanish":
+      lan = "Hola, mundo!";
+      break;
+    case "french":
+      lan = "bonjour something";
+      break;
+    case "russian":
+      lan = "something else";
+      break;
+      default:
+      lan = "Hello World!";
 }
-console.log("Your favorite side is " + side);
+console.log("I like to say " + lan)
