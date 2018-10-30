@@ -1,132 +1,132 @@
-console.log("My name is Bob, and I'm writing JavaScript");
+// console.log("My name is Bob, and I'm writing JavaScript");
 
-let nay, age, email;
+// let nay, age, email;
 
-let name = "ironhacker";
-let ag;
-age = 45;
-console.log(name);
-console.log(age);
+// let name = "ironhacker";
+// let ag;
+// age = 45;
+// console.log(name);
+// console.log(age);
 
-let a;
-let color;
-let _private;
-let $button;
-let getTop10;
-let a_large_name;
-let thisWayIsCalledCamelCase;
-var pi;
+// let a;
+// let color;
+// let _private;
+// let $button;
+// let getTop10;
+// let a_large_name;
+// let thisWayIsCalledCamelCase;
+// var pi;
 
-let favoriteFood;
+// let favoriteFood;
 
-favoriteFood = "steak";
-console.log(favoriteFood);
+// favoriteFood = "steak";
+// console.log(favoriteFood);
 
-favoriteFood = "Steak";
-console.log(favoriteFood);
+// favoriteFood = "Steak";
+// console.log(favoriteFood);
 
-let myValue = "this is a string";
-console.log(myValue);
+// let myValue = "this is a string";
+// console.log(myValue);
 
-myValue = 2;
-console.log(myValue);
+// myValue = 2;
+// console.log(myValue);
 
-console.log(2 +2);
-console.log(4 -2);
-console.log(3 * 2);
-console.log(6 / 2);
-console.log(2**3);console.log
+// console.log(2 +2);
+// console.log(4 -2);
+// console.log(3 * 2);
+// console.log(6 / 2);
+// console.log(2**3);console.log
 
-console.log(4 / 2);
-console.log(4 % 2);
-console.log(7 / 2);
-console.log(7 % 2);
-console.log(8 % 2 === 0);
-console.log(9 % 2 === 0);
+// console.log(4 / 2);
+// console.log(4 % 2);
+// console.log(7 / 2);
+// console.log(7 % 2);
+// console.log(8 % 2 === 0);
+// console.log(9 % 2 === 0);
 
-let myAge = 25;
-myAge += 1;
-console.log(myAge);
-myAge += 1;
-console.log(myAge);
+// let myAge = 25;
+// myAge += 1;
+// console.log(myAge);
+// myAge += 1;
+// console.log(myAge);
 
-myAge -= 1;
-console.log(myAge);
-myAge *= 3;
-console.log(myAge);
-myAge /= 2;
-console.log(myAge);
-myAge %= 13;
-console.log(myAge);
-myAge %= 2;
-console.log(myAge);
-myAge *= 4;
-console.log(myAge);
-myAge += 46;
-console.log(myAge);
-myAge %= 3;
-console.log(myAge);
-myAge **= 3434334;
-console.log(myAge);
+// myAge -= 1;
+// console.log(myAge);
+// myAge *= 3;
+// console.log(myAge);
+// myAge /= 2;
+// console.log(myAge);
+// myAge %= 13;
+// console.log(myAge);
+// myAge %= 2;
+// console.log(myAge);
+// myAge *= 4;
+// console.log(myAge);
+// myAge += 46;
+// console.log(myAge);
+// myAge %= 3;
+// console.log(myAge);
+// myAge **= 3434334;
+// console.log(myAge);
 
-let result = 2 + 4;
-console.log(result);
-result = ((7 + 5) / 3) - 8;
-console.log(result);
-let i = 10 + 5 * 2 ** 3 / 4 - 6
-console.log(i);
+// let result = 2 + 4;
+// console.log(result);
+// result = ((7 + 5) / 3) - 8;
+// console.log(result);
+// let i = 10 + 5 * 2 ** 3 / 4 - 6
+// console.log(i);
 
-let exp1 = ((2 * 2) + 5) * 6;
-console.log(exp1);
-exp1 = ((2 * 2) + (5 * 3)) - 5;
-console.log(exp1);
-exp1 = (5 * 5) / (5 * 5);
-console.log(exp1);
-exp1 = 5 * 5 - 5 * 4;
-console.log(exp1);
+// let exp1 = ((2 * 2) + 5) * 6;
+// console.log(exp1);
+// exp1 = ((2 * 2) + (5 * 3)) - 5;
+// console.log(exp1);
+// exp1 = (5 * 5) / (5 * 5);
+// console.log(exp1);
+// exp1 = 5 * 5 - 5 * 4;
+// console.log(exp1);
 
-let country = "usa";
-console.log(country);
-let otherC = "spain";
-console.log(otherC);
-name = "ironhacker";
-console.log(name);
-let username = "ih12";
-console.log(username);
+// let country = "usa";
+// console.log(country);
+// let otherC = "spain";
+// console.log(otherC);
+// name = "ironhacker";
+// console.log(name);
+// let username = "ih12";
+// console.log(username);
 
-let mLS = 'This is on first line.\nThis is on 2nd';
-console.log(mLS);
-mLS = "This is on first line.\nThis is on 2nd";
-console.log(mLS);
-let escape = "Yeah, the lobster is \"real\"";
-console.log(escape);
-let eC = "";
-eC += "hello student";
-console.log(eC);
+// let mLS = 'This is on first line.\nThis is on 2nd';
+// console.log(mLS);
+// mLS = "This is on first line.\nThis is on 2nd";
+// console.log(mLS);
+// let escape = "Yeah, the lobster is \"real\"";
+// console.log(escape);
+// let eC = "";
+// eC += "hello student";
+// console.log(eC);
 
-eC + 'hi there!';
-console.log(eC);
+// eC + 'hi there!';
+// console.log(eC);
 
-let greeting = "hello";
-console.log(greeting[0]);
-console.log(greeting[1]);
-console.log(greeting[2]);
-console.log(greeting[3]);
+// let greeting = "hello";
+// console.log(greeting[0]);
+// console.log(greeting[1]);
+// console.log(greeting[2]);
+// console.log(greeting[3]);
 
-let favPhr = "Don't be evil";
-console.log(favPhr.indexOf("Don't"));
-console.log(favPhr.indexOf("e"));
-console.log(favPhr.indexOf("z"));
+// let favPhr = "Don't be evil";
+// console.log(favPhr.indexOf("Don't"));
+// console.log(favPhr.indexOf("e"));
+// console.log(favPhr.indexOf("z"));
 
-let momsFood = "My favorite dessert is jello."
-console.log(momsFood.indexOf("j"));
-console.log("$".repeat(3));
-console.log("la".repeat(10));
+// let momsFood = "My favorite dessert is jello."
+// console.log(momsFood.indexOf("j"));
+// console.log("$".repeat(3));
+// console.log("la".repeat(10));
 
-console.log("dog".includes("og"));
-console.log("Dog".includes("do"));
-console.log("Hippopotamus".includes("pop"));
-console.log("Hippopotamus".includes("Hip",1));
+// console.log("dog".includes("og"));
+// console.log("Dog".includes("do"));
+// console.log("Hippopotamus".includes("pop"));
+// console.log("Hippopotamus".includes("Hip",1));
 
 // age = parseInt(prompt("welcome to Ironhack cinema. How old are you?"));
 // if (age <= 16) {
@@ -235,11 +235,35 @@ console.log("Hippopotamus".includes("Hip",1));
 //   console.log ("wow how is this running");
 // } while (4 < 2);
 
-for (i === 0; i < 31; i++) {
-  if (i === 10) {
-    console.log("ten");
-  } else if (i === 20) {
-    console.log("twenty");
-  }
-}
-  
+// for (let i = 0; i < 31; i++) {
+//   if (i === 10) {
+//     console.log("ten");
+//   } else if (i === 20) {
+//     console.log("twenty");
+//   } else {
+//     console.log(i);
+//   }
+// }
+
+// for (i = 0; i < 101; i++) {
+//   console.log(i);
+// }
+
+// var text = "";
+// let i = 0;
+// while (i < 5) {
+//   i++;
+//   if (i === 3) {
+//     continue;
+//   }
+//   text += "<br> the number is "+i;
+// }
+// console.log(text);
+
+// for (i = 0; i < 21; i++) {
+//   if (i % 2 === 0) {
+//     console.log("it's even eureka! ID" + Number(i));
+//   } else if (i % 2 === 1) {
+//     console.log("odd it is");
+//   }
+// }
