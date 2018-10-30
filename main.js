@@ -196,20 +196,50 @@ console.log("Hippopotamus".includes("Hip",1));
 // }
 // console.log("your choice would be " + dessert)
 
-name = prompt ("What language do you speak?") 
-let lan;
+// name = prompt ("What language do you speak?") 
+// let lan;
 
-switch (name) {
-    case "spanish":
-      lan = "Hola, mundo!";
-      break;
-    case "french":
-      lan = "bonjour something";
-      break;
-    case "russian":
-      lan = "something else";
-      break;
-      default:
-      lan = "Hello World!";
+// switch (name) {
+//     case "spanish":
+//       lan = "Hola, mundo!";
+//       break;
+//     case "french":
+//       lan = "bonjour something";
+//       break;
+//     case "russian":
+//       lan = "something else";
+//       break;
+//       default:
+//       lan = "Hello World!";
+// }
+// console.log("I like to say " + lan)
+
+// for (i = 0; i < 100; i++){
+//   if (i % 2) {
+//     console.log("Fizz");
+//   } else if (i % 1) {
+//     console.log("buzz");
+//   } else {
+//     console.log("what?");
+//   }
+// }
+
+// i = 0;
+
+// while (i <= 50 ) {
+//   console.log (i);
+//   i += 1;
+// }
+
+// do {
+//   console.log ("wow how is this running");
+// } while (4 < 2);
+
+for (i === 0; i < 31; i++) {
+  if (i === 10) {
+    console.log("ten");
+  } else if (i === 20) {
+    console.log("twenty");
+  }
 }
-console.log("I like to say " + lan)
+  
