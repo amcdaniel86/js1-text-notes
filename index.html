@@ -23,6 +23,26 @@
         <figcaption>powered by brekkie.</figcaption>
       </figure>
     </section>
+    <h3>Our food</h3>
+<ul>
+  <li>
+    Our coffee
+    <ol>
+      <li>Cafe Latte</li>
+      <li>Americano</li>
+      <li>Capuccino</li>
+    </ol>
+  </li>
+
+  <li>
+    Our teas
+    <ol>
+      <li>Earl Grey</li>
+      <li>English Breakfast</li>
+      <li>Herb Tea</li>
+    </ol>
+  </li>
+</ul>
     <p>Our commitment is to use impeccable sourcing
       and quality ingredients to help you code.
       An ongoing collaboration between the classroom staff and
@@ -30,15 +50,23 @@
       give our students the coding 'fruits and vegetables'
       -mainly made of JavaScript- that they need to grow as a
       healthy developer.</p>
+      <h3>Reservations here!</h3>
+<form>
+
+</form>
+
+      <pre>
+        Code everyday and enjoy your coffee every morning
+      </pre>
     <footer>
       <p class="love">Made with love by Ironhack</p>
     </footer>
   </div>
 
-  <div>I'm a block! I take up 100% width unless told otherwise.</div>
-  <div>I'm a block! I take up 100% width unless told otherwise.</div>
+  <div class="div1">I'm a block! I take up 100% width unless told otherwise.</div>
+  <div class="div1">I'm a block! I take up 100% width unless told otherwise.</div>
   <span>I'm an inline element sandwiched between two block elements.</span>
-  <div>I'm a block! I take up 100% width unless told otherwise.</div>
+  <div class="div1">I'm a block! I take up 100% width unless told otherwise.</div>
   <span>I'm inline! I flow like text</span>
 
   See, no line break!
@@ -50,12 +78,73 @@
   <h4>Heading level 4</h4>
   <h5>Heading level 5</h5>
   <h6>Heading level 6</h6>
+  <ol>
+    <li>first item</li>
+    <li>second item</li>
+    <li>third item</li>
+  </ol>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Bootcamp</th>
+      <th>City</th>
+    </tr>
+    <tr>
+      <td>Jose Perez</td>
+      <td>FullStack WebDev</td>
+      <td>Madrid</td>
+    </tr>
+    <tr>
+      <td>Michael Smith</td>
+      <td>FrontEnd WebDev</td>
+      <td>Barcelona</td>
+    </tr>
+    <tr>
+      <td>Ariel Quinones</td>
+      <td>MasterChef WebDev</td>
+      <td>Miami</td>
+    </tr>
+  </table>
+  <form action="" method="post">
+    <label for="name">Name:</label>
+    <input id="name" type="text">
+    <button type="submit">Save</button>
+  </form>
+  <form action="/users" method="post">
+    <fieldset>
+      <input type="radio" id="radio"> <label for="radio">Click me</label>
+    </fieldset>
+  </form>
+  ... commitment is to use <em>impeccable</em> sourcing
+  and <em>quality</em> ingredients...
+<!--<a> anchor tag, for links-->
+  <time>The concert starts at 12:30</time>
+  ...Our commitment is to use <strong>impeccable</strong> sourcing
+and <strong>quality</strong>...
+<br> <a href="mailto:breakfast@ironhack.com">Contact Us</a>
+<p>We are open every day of the week from <time>8:00</time> to <time>22:00</time></p>
+<br> <label>Reservation for: 
+<input type="text" name="name" value="Your name" />
+    </label>
 
+    <label>
+      Meal:
+      <select name="meal">
+        <option value="breakfast">Breakfast</option>
+        <option value="tea-time">Tea Time</option>
+      </select>
+    </label>
 
-
-
-
-
+      <label>
+        How many people?
+        <select name="how-many">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </label>
+      <button type="submit">Submit Reservation</button>
 
 
   
